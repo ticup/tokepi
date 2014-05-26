@@ -16,7 +16,7 @@
   "dependencies": {
     "underscore": "*",
     "underscore.string": "*",
-    "escape-regexp": "0.0.1",
+    "escape-regexp": "0.0.2",
     "emotional-emoticons": "*"
   },
   "devDependencies": {
