@@ -26,11 +26,11 @@ Import and start using
 
   var tokens = tokepi("This is a rather boring sentence, i.e. not so interesting. Now this is already more awesome:)!?");
   // tokens = [ "This is a rather boring sentence, i.e. not so interesting .",
-                "Now this is already more awesome :) ! ?"];
+  //            "Now this is already more awesome :) ! ?"];
 
   tokens.map(function (s) { return s.split(" "); });
   // = [["This", "is", "a", "rather", "boring", "sentence", ",", "i.e.", "not", "so", "interesting", "."],
-        ["Now", "this", "is", "already", "more", "awesome", ":)", "!", "?"]];
+  //    ["Now", "this", "is", "already", "more", "awesome", ":)", "!", "?"]];
 ```
 
 Supported
@@ -48,14 +48,14 @@ The supported emoticons can be found in the [Emotional-emoticons](https://github
 
 and patterns matched by following regular expressions
 
-```javascript
+```
 /^[A-Za-z]\.$/g      // single letter, "T. De Smedt"
 /^([A-Za-z]\.)+$/g   // alternating letters, "U.S."
 /^[A-Z][b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|z]+.$/g // capital followed by consonants, "Mr."
 ```
 
 * Contractions
-```javascript
+```
 ["'d", "'m", 's","'ll", "'re", "'ve", "n't"]
 ```
 
