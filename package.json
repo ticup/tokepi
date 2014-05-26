@@ -3,7 +3,7 @@
   "description": "Tokenizer that transforms a string of sentences into an array of white-space separated strings of tokens",
   "keywords": ["tokenize", "tokenizer", "tokens", "tokenizes", "tokenized", "sentences"],
   "author": "Tim Coppieters <coppieters.tim@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "dependencies": {
     "underscore": "*",
     "underscore.string": "*",
-    "escape-regexp": "0.0.2",
+    "escape-regexp": "0.0.1",
     "emotional-emoticons": "*"
   },
   "devDependencies": {
