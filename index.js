@@ -3,8 +3,6 @@ var _str         = require("underscore.string");
 var escapeRegExp = require("escape-regexp");
 var EMOTICONS    = require("emotional-emoticons");
 
-module.exports   = find_tokens;
-
 /*
  * Constants that help capture edge-case tokens such as emoticons and abbreviations.
  */
@@ -266,3 +264,6 @@ function def(value, defValue) {
   }
   return value;
 }
+
+
+module.exports   = find_tokens;
