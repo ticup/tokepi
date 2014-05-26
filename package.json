@@ -1,0 +1,31 @@
+{
+  "name": "tokepi",
+  "description": "Tokenizer that transforms a string of sentences into an array of white-space separated strings of tokens",
+  "keywords": ["tokenize", "tokenizer", "tokens", "tokenizes", "tokenized", "sentences"],
+  "author": "Tim Coppieters <coppieters.tim@gmail.com>",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/ticup/tokepi.git"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "underscore.string": "*",
+    "escape-regexp": "0.0.1",
+    "emotional-emoticons": "*"
+  },
+  "devDependencies": {
+    "mocha": "*", 
+    "should": "*"
+  },
+  "optionalDependencies": { 
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  }
+}
