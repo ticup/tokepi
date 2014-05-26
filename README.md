@@ -35,9 +35,7 @@ Import and start using
 
 Supported
 ---------
-* Emoticons
-* 
-The supported emoticons can be found in the [Emotional-emoticons](https://github.com/ticup/emotional-emoticons.git) package.
+* Emoticons: the supported emoticons can be found in the [Emotional-emoticons](https://github.com/ticup/emotional-emoticons.git) package.
 
 * Abbreviations
 ```javascript
