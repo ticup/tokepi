@@ -16,7 +16,7 @@ Usage
 Download the library with the npm package manager
 
 
-    > npm install tokepi
+    npm install tokepi
 
 
 Import and start using
@@ -59,6 +59,16 @@ and patterns matched by following regular expressions
 ```
 
 Feel free to request additions.
+
+
+Test
+----
+In order to run the test, make sure all dependencies are installed with
+    npm install
+
+and then simply run with
+
+    npm test
 
 
 License (BSD)

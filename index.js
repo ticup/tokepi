@@ -152,7 +152,7 @@ function find_tokens(string, punctuation, abbreviations, replace, linebreak) {
         // Split ellipsis (...) before splitting period.
         if (_str.endsWith(t, "...")) {
           tail.push("...");
-          t = _.rstrip(t.slice(0, t.length-3), ".");
+          t = _str.rstrip(t.slice(0, t.length-3), ".");
         }
 
         // Split period (if not an abbreviation).
